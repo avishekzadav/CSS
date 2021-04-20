@@ -1,0 +1,13 @@
+.container{
+    width: 100%;
+    background-color: rgb(43, 145, 82);
+    display: flex;/* flex works only with parent only*/
+    flex-wrap: wrap;
+}
+.item  {
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+    margin: 10px;
+    
+}
