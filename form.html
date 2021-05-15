@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .container {
+            height: 800px;
+            width: 700px;
+            background-color: aqua;
+            background-image: url(image/b2.jpg);
+        
+            margin: auto;
+        }
+        h3{
+            color: white;
+            padding: 5px;
+            position: relative;
+            top: 120px;
+        
+        }
+        h3:hover{
+            color: green;
+           
+        
+        }
+        ul li{
+           text-align: left;
+           margin-left: 120px;
+           
+    
+           
+           
+        }
+        li{
+            position: relative;
+            top: 180px;
+            color: white;
+            
+        
+        }
+        label:hover{
+            color: green;
+        border: 2px  solid magenta ;
+        }
+         
+        
+        label{
+            margin: 15px;
+            font-size: 20PX;
+
+            
+            
+        }
+        input{
+            max-width: initial;
+            margin: 15px;
+            margin-left:50px;
+            margin-right: 0;
+        
+            
+            
+        
+            
+        }
+        button{
+            width: 60px;
+            margin-left: 40px;
+        }
+        button:hover{
+            color:lightseagreen;
+        }
+        
+    </style>
+    
+    
+</head>
+
+<body>
+    <div class="container">
+        <ul><h3 style="text-align:center;">USER INFORMATION</h3>
+            <li>
+                <label for=" first name">First Name</label>
+                <input type="text" name="first name" placeholder="First Name"><br>
+                
+                <label for="Last name">Last Name</label>
+                
+                
+                <input type="text " name="last Name" placeholder="Last Nasme"><br>
+                <label for="Email">Email</label>
+                <input type="email" name="email" placeholder="@gmail.com"><br>
+                <label for="Gender">Gender</label>
+                <input type="radio" name="Gender" value="male" checked>male
+                <input type="radio" name="Gender" value="female">female<br>
+                <label for="contact">Contact</label>
+                <input type="text" name="contact" ><br>
+                <label for="Age">Age</label>
+                <input type="Number" name="Age" min="18" placeholder="avove 17"><br>
+                <label for="Date">DOB</label>
+                <input type="Date" name="Date" ><br>
+                <input type="button" value="Reset" name="Reset">
+                <button>Summit</a></button>
+                
+
+            </li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
